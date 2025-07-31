@@ -115,7 +115,7 @@ int total_node(Node* root)
     return l+r+1;
 }
 
-int main()∆
+int main()
 {
     Node* root = input_tree();
     int depth = max_height(root);
